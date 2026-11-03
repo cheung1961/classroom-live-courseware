@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>课堂互动 · 学生端</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1 id="courseTitle">课堂互动</h1>
+    <div class="who">
+      <span id="whoName">未登录</span>
+      <button id="resetName" class="linkbtn" type="button">切换</button>
+    </div>
+  </header>
+
+  <main id="quiz" class="quiz"></main>
+
+  <div id="result" class="result hidden"></div>
+
+  <footer class="footbar">
+    <button id="submitBtn" class="primary" type="button">提交并查看结果</button>
+    <span id="status" class="status"></span>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

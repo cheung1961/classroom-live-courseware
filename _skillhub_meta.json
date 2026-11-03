@@ -1,0 +1,21 @@
+{
+  "name": "课堂互动课件",
+  "displayName": "课堂互动课件 · 学生端+教师大屏实时汇总",
+  "version": "1.0.0",
+  "author": "cheung1961",
+  "license": "见 LICENSE（可商用分发，版权归作者）",
+  "source": "local",
+  "description_zh": "零依赖 Node 服务驱动的课堂互动课件：学生端作答（选择/判断/填空/拖拽/开放），教师机大屏实时汇总全班正确率与开放作答。适用于随堂测验、练习、概念梳理、开放讨论。改一个题库文件即可换学科。",
+  "description_en": "Zero-dependency classroom interactive courseware: student answering plus teacher big-screen live aggregation of the whole class's correctness rate and open responses. Swap subjects by editing one question-bank file.",
+  "examples_zh": [
+    "帮我做个初中物理课堂互动课件",
+    "生成一套英语随堂测验，含选择、判断和开放题",
+    "做个历史课的拖拽分类互动题"
+  ],
+  "examples_en": [
+    "Make a middle-school physics interactive courseware",
+    "Generate an English quiz with choice, judge and open questions",
+    "Build a history drag-to-classify activity"
+  ],
+  "tags": ["教育", "课件", "课堂互动", "教师大屏", "随堂测验", "K12", "Node"]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>课堂互动 · 教师大屏</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="teacher">
+  <header class="topbar">
+    <h1 id="courseTitle">课堂互动 · 教师端</h1>
+    <div class="who">
+      已提交：<strong id="count">0</strong> 人
+      <span id="conn" class="dot off" title="连接状态"></span>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="panel">
+      <h2>各题正确率（实时）</h2>
+      <div id="qstats" class="qstats"></div>
+    </section>
+
+    <section class="panel">
+      <h2>学生提交情况</h2>
+      <div id="students" class="students"></div>
+    </section>
+
+    <section class="panel">
+      <h2>开放作答汇总</h2>
+      <div id="open" class="openlist"></div>
+    </section>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="teacher.js"></script>
+</body>
+</html>
