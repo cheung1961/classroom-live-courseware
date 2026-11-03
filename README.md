@@ -1,11 +1,20 @@
 # 课堂互动课件 · 技能包（Classroom Live Courseware）
 
-把任意一节课，做成「**学生用浏览器作答、教师机大屏实时看到全班结果**」的网页课件。
+**课堂互动课件（Classroom Live Courseware）** 是一个 WorkBuddy 技能，帮助教师把一节课快速变成可互动的网页课件：
 
-- **学生端**：选择题 / 判断题 / 填空计算 / 拖拽分类 / 开放作答，提交后**本地即时判分**，立刻看对错与得分。
-- **教师端（大屏）**：**实时汇总**——各题正确率进度条、学生提交名单、开放作答墙（自动推送，无需刷新）。
-- **零依赖**：只用到 Node.js 内置模块，**无需 `npm install`、无需联网后端**。
-- **真实课堂**：学生用「教师机局域网 IP + 端口」访问，教师投屏 `/teacher` 即可。
+- **学生端**：选择题 / 判断题 / 填空计算 / 拖拽分类 / 开放作答，提交后本地即时判分。
+- **教师端大屏**：实时汇总全班各题正确率、提交名单与开放作答墙（自动推送，无需刷新）。
+- **零依赖**：仅需 Node.js，无需安装依赖、无需联网后端。
+- 改 `public/content.js` 一个文件即可换学科，适合随堂测验、练习与课堂讨论。
+
+**Classroom Live Courseware** is a WorkBuddy skill that turns any lesson into interactive web courseware in minutes:
+
+- **Student side**: choice / judge / calculation / drag-to-classify / open response, with instant local grading on submit.
+- **Teacher big-screen**: live aggregation of the whole class's per-question accuracy, submission list, and an open-response wall (auto-pushed, no refresh).
+- **Zero dependencies**: only Node.js required, no npm install, no cloud backend.
+- Swap subjects by editing a single file (`public/content.js`). Ideal for in-class quizzes, practice, and discussion.
+
+---
 
 ## 安装（买家）
 
